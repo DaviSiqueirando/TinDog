@@ -1,0 +1,187 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+/*----------FONTES-----------*/
+
+
+.font-family{font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;}
+
+
+a{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+
+  font-weight: 900;
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+h2{
+
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*NAVEGATION BAR*/ 
+
+#title{
+  text-align: left;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}   
+
+.fa-circle-check,.fa-bullseye, .fa-heart{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.fa-circle-check:hover,.fa-bullseye:hover, .fa-heart:hover{
+  color:#ff4c68
+}
+
+
+/*----------BOTÃO E FOTO DO CACHORRO TINDOG-----------*/
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+.tindogphone{
+  width:60%;
+  transform: rotate(25deg);
+  position: static;
+  right: 220px;
+  z-index: 0;
+}
+
+
+/*--------FEATURES-----------*/
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features{
+  font-size: 1.4rem;
+
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.featurebox{
+  padding: 5%;
+}
+
+/*----------TESTIMONIALS----------*/
+
+#testimonials{
+  color:#fff;  
+  background-color:#ef8172;
+
+}
+
+.testimonialimage{
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+
+}
+
+.presslogo{
+  width: 15%;
+}
+
+
+
+
+#carouselExampleIndicators{
+  padding-bottom: 100px;
+}
+/*----------PRICE----------*/
+#pricing{
+  padding: 100px;
+  
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px){
+
+
+  .tindogphone{
+      position:static;
+      transform: rotate(0);
+  }
+
+}
+
+#cta{
+  color: #fff;  
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  
+}
+
+
+.phcta{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4.5rem;
+  line-height: 3.5rem;;
+  padding: 20px;
+}
+
+
+.brandsfooter{
+  margin: 20px 10px;
+}
+
